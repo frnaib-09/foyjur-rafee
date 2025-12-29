@@ -61,17 +61,14 @@ iconify-icon {
 }
 /* -------------------------------------------------------------------------- */
 /*                                   Header                                   */
-header {
-    position: absolute;
-    background-size: cover;
-    width: 100%;
-}
-
 header nav {
-    background-color: transparent;
+    background: rgba(11, 18, 32, 0.75);
+    backdrop-filter: blur(8px);
     background-size: cover;
     background-position: center;
+    border-bottom: 1px solid rgba(0, 153, 255, 0.15);
 }
+
 header .anchor a {
     font-family: var(--font-family);
     font-size: 18px;
@@ -487,4 +484,5 @@ footer .i3:hover {
     background-color: var(--fourth-color);
     transition: .2s;
 }
+
 /* -------------------------------------------------------------------------- */
