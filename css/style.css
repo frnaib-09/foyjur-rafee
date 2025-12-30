@@ -59,6 +59,10 @@ body {
 iconify-icon {
     vertical-align: middle;
 }
+
+section {
+    margin-top: 120px;
+}
 /* -------------------------------------------------------------------------- */
 /*                                   Header                                   */
 header nav {
@@ -258,9 +262,6 @@ header .anchor:hover a {
 }
 /* -------------------------------------------------------------------------- */
 
-
-
-
 /* -------------------------------------------------------------------------- */
 /*                               Skills Section                               */
 #skills {
@@ -278,43 +279,33 @@ header .anchor:hover a {
     margin: 36px 0;
 }
 
-.skillbar {
-    padding: 16px 24px;
-    margin-bottom: 32px;
-    background-color: var(--primary-color);
-    border-radius: 10px;
+.slider {
     overflow: hidden;
-    text-align: center;
-    color: var(--gradient);
+    height: 80px;
 }
 
-.skillbar:hover {
-    background-color: var(--fourth-color);
-    transition: .3s;
-    cursor: pointer;
+.slider .sec img {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
 }
 
-.skillbar h3 {
-    font-weight: 600;
-    font-size: 24px;
-    margin-bottom: 8px;
+.slider .sec h5 {
+    font-size: 18px;
+    margin: 8px;
 }
 
-.skillbar h3:hover {
-    text-shadow: rgb(106, 106, 109) 1px 1px 2px;
-    transition: .2s;
+.diagram {
+    margin-top: 24px;
 }
 
-.skillbar p {
+#skills .explain p {
     font-weight: 500;
     font-size: 20px;
-}
-
-.skillbar img {
-    text-align: center;
-    width: 40px;
-    height: 40px;
-    margin: 5px;
+    text-align: justify;
+    align-items: center;
+    margin-top: 84px;
+    color: var(--fourth-color);
 }
 /* -------------------------------------------------------------------------- */
 
@@ -484,5 +475,4 @@ footer .i3:hover {
     background-color: var(--fourth-color);
     transition: .2s;
 }
-
 /* -------------------------------------------------------------------------- */
